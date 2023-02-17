@@ -1,0 +1,66 @@
+p{
+    background-color: rgb(113, 174, 211);
+    border: 10px solid rgb(31, 134, 46);
+    font-size: 35px;
+}
+h1{
+    background-color: brown;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgb(26, 37, 163);
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    background-color: brown;
+    color: rgb(0, 0, 0);
+    border: 10px solid rgb(26, 37, 163);
+    font-size: 40px;
+    text-align: center; 
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20210609/pngtree-football-luminous-three-dimensional-gradient-image_726957.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.color{
+    background-color: rgb(113, 174, 211);
+    border: 10px solid rgb(31, 134, 46);
+    font-size: 40px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(120, 118, 118);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  /* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
